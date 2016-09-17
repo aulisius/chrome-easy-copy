@@ -1,0 +1,20 @@
+.easy-copy-img {
+	width: 24px;
+	height: 24px;
+	margin: 0 auto;
+}
+
+.easy-copy-btn {
+	/* Format button */
+	background-color: transparent;
+	border: none;
+	float: right;
+	cursor: pointer;
+	z-index: 999;
+	
+	/* Fix SO css */
+	box-shadow: none;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
