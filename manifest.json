@@ -1,0 +1,18 @@
+{
+	"name": "Easy copy",
+	"version": "0.0.1",
+	"description": "Easily copy code snippets from StackOverflow and Github",
+	"author": "Md Faizaan <aulisius7@gmail.com>",
+	"homepage_url": "https://github.com/faizaanceg/chrome-easy-copy",
+	"manifest_version": 2,
+	"content_scripts": [{
+		"matches": ["https://github.com/*", "https://stackoverflow.com/*", "http://stackoverflow.com/*"],
+		"css": ["inject.css"],
+		"js": ["inject.js"]
+	}],
+	"icons": {
+		"144": "content_copy.png"
+	},
+	"offline_enabled": true,
+	"web_accessible_resources": ["content_copy.png"]
+}
